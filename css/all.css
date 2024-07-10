@@ -73,11 +73,11 @@ a {
     margin-bottom: 40px;
 }
 
-.mb-2 {
-    margin-bottom: 8px;
+.intro-list-info a:hover {
+    color: red;
 }
 
-.intro-list-mb-sm li {
+.mb-2 {
     margin-bottom: 8px;
 }
 
@@ -85,15 +85,7 @@ a {
     margin-bottom: 12px;
 }
 
-.intro-list-mb-md li {
-    margin-bottom: 12px;
-}
-
 .mb-4 {
-    margin-bottom: 16px;
-}
-
-.intro-list-mb-bg li {
     margin-bottom: 16px;
 }
 
