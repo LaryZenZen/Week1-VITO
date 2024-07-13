@@ -15,10 +15,12 @@ body {
 
 h1 {
     font-size: 128px;
+    letter-spacing: 0.12em;
 }
 
 h2 {
     font-size: 128px;
+    letter-spacing: 0.12em;
     padding-right: 14px;
     text-align: right;
 }
