@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/all.css">
     <title>VITO</title>
 </head>
@@ -16,18 +17,18 @@
     <header class="header container">
         <h1>VITO</h1>
         <div class="logo"><img src="./img/vito.png" alt="LOGO"></div>
-        <h2>RESUME</h2>
+        <h2 data-aos="fade-down">RESUME</h2>
     </header>
     <main>
         <div class="intro ">
             <div class="intro-content container">
-                <p>
+                <p data-aos="fade-left">
                     I'm Vito, a UI Designer with 5+ years of experience. I create visually appealing interfaces for web and mobile apps. Proficient in Sketch, Adobe XD, Figma, HTML, CSS, and JavaScript. I enjoy collaborating with others to create high-quality products.
                 </p>
             </div>
         </div>
         <section class="container">
-            <div class="intro-list">
+            <div class="intro-list" data-aos="fade-down-right">
                 <h3>Vito Evans </h3>
                 <ul class="intro-list-info">
                     <li>
@@ -44,7 +45,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="intro-list ">
+            <div class="intro-list " data-aos="zoom-in-left ">
                 <h3>Education</h3>
                 <ul>
                     <li class="mb-4 ">
@@ -55,7 +56,7 @@
                         <div class="intro-list-time ">2008-2012</div>High School Diploma, Lincoln High School</li>
                 </ul>
             </div>
-            <div class="intro-list ">
+            <div class="intro-list "data-aos="zoom-out ">
                 <h3>Work</h3>
                 <ul>
                     <li class="mb-4 ">
@@ -66,7 +67,8 @@
                         <div class="intro-list-time ">2014-2016</div>Customer Service Representative, QRS Inc.</li>
                 </ul>
             </div>
-            <div class="intro-list ">
+            <div class="intro-list "data-aos="fade-up "
+     data-aos-anchor-placement="center-center ">
                 <h3>Awards</h3>
                 <ul>
                     <li class="mb-3 ">Best in Show Award, National Advertising Awards, 2020</li>
@@ -91,6 +93,10 @@
             </ul>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
